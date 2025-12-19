@@ -1,12 +1,12 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "companion-module-wheatstone-wheatnet",
+	"name": "companion-module-wheatstone-wheatnet",
+	"shortname": "wheatstone-wheatnet",
+	"description": "communicate with Wheatstone I/O Blades using TCP connection.",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/h07d0q/companion-module-wheatstone-wheatnet.git",
+	"bugs": "https://github.com/h07d0q/companion-module-wheatstone-wheatnet/issues",
 	"maintainers": [
 		{
 			"name": "Your name",
@@ -20,7 +20,7 @@
 		"entrypoint": "../dist/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Wheatstone",
+	"products": ["Wheatnet IP"],
+	"keywords": ["ACI", "Blade", "UMIX", "IP-88a", "IP-88d", "IP-88ad", "IP-88e"]
 }
