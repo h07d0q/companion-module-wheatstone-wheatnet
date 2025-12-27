@@ -12,6 +12,7 @@ import { UpdateActions } from './actions.js'
 import { UpdateFeedbacks } from './feedbacks.js'
 
 interface UmixState {
+	/*
 	on?: number
 	fdra?: number
 	fdrb?: number
@@ -26,6 +27,7 @@ interface UmixState {
 	urampa?: number
 	drampa?: number
 	enabled?: number
+	*/
 	//minc?: number
 	//inca?: number
 	//incb?: number
@@ -293,6 +295,7 @@ export class ModuleInstance extends InstanceBase<ModuleConfig> {
 			.replace(/\/>/g, '>') // /> -> >
 	}
 
+	/*
 	private escapeValue(value: string): string {
 		return value
 			.replace(/\?/g, '/?') // ? -> /?
@@ -301,6 +304,7 @@ export class ModuleInstance extends InstanceBase<ModuleConfig> {
 			.replace(/</g, '/<') // < -> /<
 			.replace(/>/g, '/>') // > -> />
 	}
+	*/
 }
 
 runEntrypoint(ModuleInstance, UpgradeScripts)
